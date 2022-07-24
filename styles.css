@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta+Malar&display=swap");
+​
+/* generic styling */
+body {
+  font-family: "Mukta Malar", sans-serif;
+  background-color: rgb(128, 187, 207);
+}
+​
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+​
+h2 {
+  letter-spacing: 2px;
+  color: #000;
+  border-bottom: 1px solid #6e85b7;
+}
