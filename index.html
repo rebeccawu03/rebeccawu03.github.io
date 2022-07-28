@@ -9,7 +9,7 @@
     <body>
         <div class="tabs">
             <ul class="tabs-list">
-                <li><a href="index.html"><i class="fa fa-user"></i> About Me</a></li>
+                <li><a href="index.html"><i class="fa fa-user"></i> Home</a></li>
                 <li><a href="runs.html"><i class="fa fa-fire"></i> Runs</a></li>
             </ul>
         </div>
@@ -32,23 +32,39 @@
                         Introduction
                     </h2>
                     <p>
-                        Hi! I'm Erin. I'm a rising freshman at the University of Maryland and I've been running and racing with the Wilde Lake High School track team for the past four years. Though I'm currently injured, I'm still passionate about sharing my sport with the world. Follow along to see my journey and some of my favorite runs.
+                        Hi! I'm Erin. I'm a rising freshman at the University of Maryland and I've been running and racing with the Wilde Lake High School track team for the past four years. Though I'm currently injured, I'm still passionate about sharing my sport with the world. Follow along to see my journey and some of <a href="runs.html">my favorite runs.</a>
                     </p>
                 </div>
         </div>
 
 
-        <div class="container">
+        <div class="container" id="prs">
             <div class="text">
                 <h2>
                     My Personal Best Times
                 </h2>
                 <p>
                     <div class="fancy-stats">
-                            <p>800 m: <span class="number">2:47</span></p>
-                            <p>1600 m: <span class="number">6:18</span></p>
-                            <p>Mile: <span class="number">6:30</span></p>
-                            <p>5K: <span class="number">24:48</span></p>
+
+                            <table>
+                                <tr>
+                                    <td class="left-col">800 m: </td>
+                                    <td class="right-col">2:47</td>
+                                </tr>
+                                <tr>
+                                    <td class="left-col">1600 m: </td>
+                                    <td class="right-col">6:18</td>
+                                </tr>
+                                <tr>
+                                    <td class="left-col">Mile: </td>
+                                    <td class="right-col">6:30</td>
+                                </tr>
+                                <tr>
+                                    <td class="left-col">5K: </td>
+                                    <td class="right-col">24:48</td>
+                                </tr>
+
+                            </table>
                     </div>
 
                 </p>
@@ -57,15 +73,24 @@
                 <img src="images/runningSqr.png">
             </div>   
         </div>
+
+        <div class="container" id="photo-gal">
+            <div class="text">
+                <h2>Photo Gallery</h2>
+            </div>
+            <div class="pics">
+                <!--put nine well-cropped images here, to be separated by flex with a normal margin-->
+            </div>
+        </div>
     </body>
 
     <div class="footer">
         <p>Erin Hopper</p>
         <div class="links">
-            <a href="mailto:erin.hopper17@gmail.com">erin.hopper17@gmail.com</a>
-            <a href="https://www.strava.com/athletes/41010478">Strava</a>
-            <a href="https://www.instagram.com/erin.hopps/">Instagram</a>
-            <a href="https://www.athletic.net/TrackAndField/Athlete.aspx?AID=14295838">Athletic.net</a>
+            <a href="mailto:erin.hopper17@gmail.com"><img class="footer-img" src="images/email.png" alt="Email me"></a>
+            <a href="https://www.strava.com/athletes/41010478"><img class="footer-img" src="images/strava.jpg" alt="My Strava profile"></a>
+            <a href="https://www.instagram.com/erin.hopps/"><img class="footer-img" src="images/insta.png" alt="My Instagram"></a>
+            <a href="https://www.athletic.net/TrackAndField/Athlete.aspx?AID=14295838"><img class="footer-img" src="images/athletic.png" alt="My Athletic.net profile"></a>
         </div>
     </div>
 </html>
