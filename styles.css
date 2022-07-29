@@ -123,6 +123,7 @@ img {
 
 #photo-gal {
 	flex-direction: column;
+	align-items: center;
 }
 
 .pics {
@@ -133,6 +134,7 @@ img {
 	width: 90%;
 	height: auto;
 	margin: 20px;
+	background: yellow;
 }
 
 .header {
