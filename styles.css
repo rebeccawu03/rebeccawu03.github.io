@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap');
 
 body {
 	background: linear-gradient(90deg, #f1ddbf 21px, transparent 1%) center, linear-gradient(#f1ddbf 21px, transparent 1%) center, #92ba92;
 	background-size: 24px 24px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 
 }
 
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', serif;
 	font-size: 30px;
 	color: #343c4a
 }
@@ -123,11 +123,22 @@ img {
 
 #photo-gal {
 	flex-direction: column;
-
 }
+
+.pics {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.pics img {
+	width: 90%;
+	height: auto;
+	margin: 20px;
+}
+
 .header {
 	text-align: center;
 }
+
 
 .footer {
 	background-color: #525e75;
