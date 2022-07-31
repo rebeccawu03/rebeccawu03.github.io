@@ -104,6 +104,8 @@ img {
 	border-color: #466170;
 	text-align: center;
 	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .fancy-stats table {
 	margin-left: auto;
