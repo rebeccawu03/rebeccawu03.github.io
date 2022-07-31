@@ -38,6 +38,9 @@ p {
 	font-size: 20px;
 }
 
+ul {
+	padding: 0px;
+}
 
 .tabs {
 	text-align: center;
