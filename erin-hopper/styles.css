@@ -173,22 +173,6 @@ a:hover {
 	text-decoration: none;
 }
 
-.footer-img {
-	height: 25px;
-	width: 25px;
-	border-style: none;
-}
-
-.links {
-	display: flex;
-	justify-content: center;
-}
-
-.links a {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
 .projects-grid {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -238,4 +222,77 @@ a:hover {
 .project-img {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.run-page {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 50px;
+}
+
+.run-img {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.run-desc {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin: 20px;
+	padding: 10px;
+}
+
+.run-desc div p{
+	font-size: 18px;
+}
+
+.run-stats {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin: 20px;
+	padding: 10px;
+}
+
+.run-images {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 50px;
+}
+
+.small-img {
+	max-width: 90%;
+	height: auto;
+}
+
+
+#gooseboys {
+	margin: 10px;
+	padding: 10px;
+}
+
+#gooseboys p{
+	font-size: 15px;
+}
+
+
+.footer-img {
+	height: 25px;
+	width: 25px;
+	border-style: none;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+.links a {
+	margin-left: 20px;
+	margin-right: 20px;
 }
