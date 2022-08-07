@@ -64,10 +64,12 @@ ul {
 
 .tabs ul li:hover a{
 	color: white;
+	text-decoration: none;
 }
 
 .tabs ul li a {
 	color: black;
+	text-decoration: none;
 }
 
 .container {
@@ -160,17 +162,14 @@ img {
 
 a:link {
 	color: black;
-	text-decoration: none;
 }
 
 a:visited {
 	color: black;
-	text-decoration: none;
 }
 
 a:hover {
 	color: rgb(194, 194, 194);
-	text-decoration: none;
 }
 
 .projects-grid {
@@ -237,6 +236,10 @@ a:hover {
 	grid-row-end: 3;
 }
 
+.run-img img:hover {
+	filter: brightness(70%);
+}
+
 .run-desc {
 	grid-column-start: 3;
 	grid-column-end: 5;
@@ -244,6 +247,16 @@ a:hover {
 	grid-row-end: 2;
 	margin: 20px;
 	padding: 10px;
+}
+
+.text h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.run-text h2 {
+	margin: 0px;
+	padding: 0px
 }
 
 .run-desc div p{
@@ -259,27 +272,66 @@ a:hover {
 	padding: 10px;
 }
 
+.stats {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stats p {
+	font-size: 18px;
+	margin: 15px;
+}
+
 .run-images {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	margin: 50px;
+	text-align: center;
+}
+
+#don-boyer-spread {
+	grid-template-columns:  25% 25% 25% 25%;
+}
+
+.small-img img {
+	width: 90%;
+	height: auto;
 }
 
 .small-img {
-	max-width: 90%;
-	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 
 #gooseboys {
-	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
 	padding: 10px;
+	border-radius: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;  
+	border-width: 10px;
+	max-width: 80%;
 }
 
 #gooseboys p{
 	font-size: 15px;
 }
 
+#pacegraph {
+	flex-direction: column;
+}
+
+#pacegraph img {
+	border-color:rgba(0, 0, 0, 0.5)
+}
 
 .footer-img {
 	height: 25px;
@@ -295,4 +347,15 @@ a:hover {
 .links a {
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.caption {
+	font-size: 14px;
+	width: 90%;
+	background-color: white;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
