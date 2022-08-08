@@ -71,7 +71,7 @@ const resultText3 = document.querySelector("#results-text3");
 const pictures3 = [
   {
     name: "6th Grade Car",
-    img: "/Users/rebeccawu/Documents/Github/rebecca-wu-fellowship/randomPictures/7P9A3624.JPG",
+    img: "randomPictures/7P9A3624.JPG",
     desc: "Testing out our hand pulled steering system.", 
   },
   {
